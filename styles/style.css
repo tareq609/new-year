@@ -42,6 +42,39 @@
     border-radius: 5px;
     border: none;
 }
+.mid-title{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.mid-para{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 15px 0;
+    line-height: 30px;
+}
+.mid{
+   margin: 200px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 75%;
+   gap: 100px;
+}
+.text-container {
+    display: flex;
+    align-items: center;
+}
+.checkmark {
+    color: green;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.text {
+    font-size: 24px;
+}
+
+
 
 
 @media  screen and (max-width:576px) {
@@ -62,5 +95,12 @@
         height: 300px;
         background-size: cover;
         background-position: left bottom;
+    }
+    .mid{
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .mid img{
+        width: 100%;
     }
 }

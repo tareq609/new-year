@@ -73,8 +73,23 @@
 .text {
     font-size: 24px;
 }
+.plan-icon{
+    width: 60%;
+    margin: 100px auto;
+}
+.plan-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 
-
+}
 
 
 @media  screen and (max-width:576px) {
@@ -102,5 +117,12 @@
     }
     .mid img{
         width: 100%;
+    }
+    .plan{
+        flex-direction: column;
+        
+    }
+    .plan div{
+        margin-top: 30px;
     }
 }
